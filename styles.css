@@ -1,0 +1,130 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.hemd{
+    position: relative;
+    overflow: auto;
+    height: 200%;
+    width : 100%;
+    background-color: rgba(65, 19, 114, 0.5);
+   
+   
+    
+}
+img{
+  float :right;
+}
+.top{
+    background-color: rgb(0, 0, 0);
+    height: 25px;
+}
+  h1, h2, h3 {
+    color: #148b89;
+  }
+  
+
+
+  /* Header styles */
+  header {
+    
+    background-color: #f4cb8a;
+    padding: 20px;
+    height: 200%;
+    width: 65%;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 50px 20px;
+  }
+  
+  /* About section */
+  #about {
+    color: black;
+    background-color: #f9f3c7;
+    height:30%;
+    width:65%;
+    
+  
+  }
+  
+  /* Projects section */
+  #projects {
+    
+    background-color: #e1d1ff;
+  }
+  
+  .project {
+    background-color: #f6effe;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  #skills{
+    height: 95%;
+   
+    background-color: #148b89;
+  }
+  .skil{
+    width: 50%;
+    background-color: #f6effe;
+    margin-bottom:20px;
+    padding:20px;
+  }
+  /* Education section */
+  #education {
+    background-color: #d1ffe2;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+  }
+  
+#profile-photo {
+    position: absolute; /* Set position to absolute */
+    top: 3%; /* Adjust the top positioning as needed */
+    right: 7%; /* Adjust the right positioning as needed */
+    width: 15%; /* Set the width of the photo */
+    height: auto; /* Maintain the aspect ratio of the photo */
+    border-radius: 50%; /* Apply border-radius for a circular shape */
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+
+  
